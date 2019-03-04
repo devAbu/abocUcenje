@@ -1,6 +1,0 @@
-+ head ti nema nikakvih meta tagova...a glavni cilj je bio da se to odradi, jer se html hajmo rec zna
-+ nemas ikonu na tabu..imas samo ime taba
-+ kad se slika treba ubacit...najbolje je da se napravi folder images (npr) i u njemu ubacis slike i onda ih od tamo pozivas
-- kad se radi button...<button> TEKST </button>...taj "TEKST" najbolje da ide unutar span taga
-+ liste i tabela ti nemaju ID...imas samo ID unutar liste odnosno tabele...al cjelokupna tabela odnosno lista nema svoj ID
-- kad se tabela radi prakticnije je da koristis thead i tbody i tfoot (kao footer)

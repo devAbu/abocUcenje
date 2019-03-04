@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ZADATAK2 - HTML</title>
+    <meta name="author" content="anes">
+    <meta name="description" content="zadatak 2">
+    <meta name="keywords" content="web, html">
+    <link rel="shortcut icon" href="images/icon.ico" type="image/x-icon">
+</head>
+
+
+<body>
+<h1 id="soki16">WEB HTML WEB</h1>
+<h3 id="soki17">Klase, Forma, "STYLE Texta (bez css-a)"</h3>
+
+<div id="soki15">
+    <pre id="soki1" class="soki12"><b>BOLD</b> paragraf...jedan nacin    <strong>BOLD</strong> paragraf... drugi nacin</pre>
+
+    <pre id="soki2" class="soki13"><i id="soki3">ITALIC</i> paragraf...jedan nacin     <em id="soki4">ITALIC</em> paragraf...drugi nacin   <u id="soki5">UNDERLINE</u> paragraf    <del id="soki6">PREKRIZEN</del> paragraf     <small id="soki7">MANJI</small> PARAGRAF    <mark id="soki8">HIGHLIGHTED</mark> paragraf</pre>
+
+<pre id="soki9" class="soki14"><sub id="soki10">DOLE</sub> paragraf      <sup id="soki11">GORE</sup> paragraf</pre>
+</div>
+
+<br>
+<h3 id="soki18">FORMAA</h3>
+
+<form id="soki90" action="/action_page.php">
+    <input id="soki19" type="checkbox" name="musko" value="man"> musko
+    <input id="soki20" type="checkbox" name="zensko" value="woman" checked> zensko<br>
+    
+    <input id="soki21" type="radio" name="male" value="male" checked> musko
+    <input id="soki22" type="radio" name="female" value="female"> zensko
+    <input id="soki23" type="submit" value="Druga forma gotova">
+  </form>
+  <br>
+
+  <form id=soki24"" action="/action_page.php">
+    <input id="soki25" type="text" name="aaa" >
+    <input id="soki26" type="text" name="abc" >
+    <input id="soki27" type="submit" value="Prva forma gotova">
+  </form>
+  <br>
+
+
+<script>
+var input = document.getElementById('soki25');
+input.focus();
+input.select();
+
+  </script>
+
+
+
+
+  <form id="myForm">
+    <input id="soki28" type="email" name="email"  value="Unesi mail">
+    <input id="soki29" type="date" name="datum">
+    <input id="soki30" type="password"  name="pass" placeholder="Unesi sifru">
+    <input id="soki31" type="text" title="nema kucanja" name="beskucnik" placeholder="Ne moze kucati" readonly>
+    <input id="soki32" type="button" onclick="myFunction()" value="Reset form">
+
+</form>
+
+
+
+<script>
+function myFunction() {
+  document.getElementById("myForm").reset();
+}
+</script>
+
+
+<br>
+<br>
+
+
+<form id="soki33">
+
+    <fieldset id="soki34">
+        <legend id="soki38">pozz</legend>
+        Godine: <input id="soki35" title="Nema mijenjanja" type="text" name="god" placeholder="27" readonly><br>
+        Najdraza boja: <input id="soki36" type="color" name="boja"><br>
+        <input id="soki37" type="submit" value="Zavrsava formu">
+
+    </fieldset>
+
+</form>
+<br>
+<br>
+
+<form id="soki38">
+    <textarea name="message" rows="10" cols="30" placeholder="POSALJI FEEDBACK"></textarea><br>
+
+<select id="soki44" name="cars" size="2" multiple >
+    <option id="soki39"  value="izab" disabled>Izaberi Ocjenu</option>
+    <option id="soki39" value="One">1</option>
+    <option id="soki40" value="Two">2</option>
+    <option id="soki41" value="Three">3</option>
+    <option id="soki42" value="Four" selected>4</option>
+    <br>
+    <input id="soki43" type="submit" value="Zavrsava forma">
+</form>
+
+
+
+
+</body>
+</html>
