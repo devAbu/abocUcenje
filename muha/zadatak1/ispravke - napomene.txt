@@ -1,4 +1,4 @@
 *** POSLIJE ROKA POSLANO - zbog obaveza
 
 - kad se stavlja ikona najbolje ide extention .ico
-- fulio si path do slike...i na ikoni i na slici (img)
++ fulio si path do slike...i na ikoni i na slici (img)
