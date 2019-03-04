@@ -1,0 +1,14 @@
+***POSLANO U ROKU
+
+- nemas ikonu u tabu
+- nemas u svakom elementu ID i klasu...znam da ti je cudno...al o tom mozemo kad se vidimo haha
+- input fieldovi u prvoj formi ti nemaju klasu
+- zasto u formi method stavljas get/post??
+- druga forma takodjer nema klasa u input filedovima ukljucujuci i labele
+- button u drugoj formi nema ni ID ni klasu
+- treca forma...opet nema klasa u input fieldovima i button ti nema ni ID i klasu
+- zasto cetvrta forma nema methodu a tri gornje ti imaju??
+- puno elemenata ti nema ID i klasu
+- zadnja forma...ne prikazuje ti se placeholder u textarea i nemas klasu
+- ispod svi elementi nemaju klasu...cak neki nemaju ni klasu ni ID
+- datalist ti ne radi kako treba...uopste se ne prikazuje ta kao dropdown/up lista
