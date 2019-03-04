@@ -1,16 +1,18 @@
 ***POSLANO POSLIJE ROKA - sa razlogom
 
 - uradio si u drugom fajlu...sacuvo si je u folderu abu a ne kiseli/zadatak2...myb je zbog slike al cu te zamolit da ubuduce radis sve u svom folderu, kopiraj sliku od mene al ne tu stavljat svoj rad <3
-- prva dva heada ti nemaju klasu
-- div nema klasu...vecina elemenata u divu nemaju klasu
++ prva dva heada ti nemaju klasu
++ div nema klasu...vecina elemenata u divu nemaju klasu
 - da li znas zasto ti je font drugaciji nego kod mene?
-- opet head nema klasu
++ opet head nema klasu
 - zasto ti je druga forma prije prve?
-- u tagu pored ID i ACTION ti treba klasa i jos nesto...pokusaj skontat sta
-- u toj formi nikako nemas klase
++ u tagu pored ID i ACTION ti treba klasa i jos nesto...pokusaj skontat sta
++ u toj formi nikako nemas klase
+- zasto methoda ide get/post???
 - u checkboxu i radio fieldovima...kad kliknem na musko / zensko,  kvadradic / krugic se ne selekt pokusaj popravit
-- u tvojoj drugoj klasi (moja prva) imas malu gresku u tagu forme...provjeri i ispravi...opet fale klasa i jos jedna stvar 
-- nemas klasu nigdje
++ u tvojoj drugoj klasi (moja prva) imas malu gresku u tagu forme...provjeri i ispravi...opet fale klasa i jos jedna stvar 
++ nemas klasu nigdje
+- dodaj klasu na svaki elemenat ko sto smo rekli danas u ICHECKENU
 - koristio si js za focus (da se selkta cim se pokrene)..al u zadataku se js ne smije koristit...pa pokusaj to uradit samo pomocu htmla
 - opet si koristio js za reset...pokusaj preko htmla samo
 - skoro nigdje nema klase
