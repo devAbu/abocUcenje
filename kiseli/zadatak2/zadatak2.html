@@ -27,63 +27,59 @@
 <br>
 <h3 id="soki18" class="klasa4">FORMAA</h3>
 
-<form id="soki90" class="klasa5" action="/action_page.php" method="get/post">
-    <input id="soki19" type="checkbox" name="musko" value="man"> musko
-    <input id="soki20" type="checkbox" name="zensko" value="woman" checked> zensko<br>
-    
-    <input id="soki21" type="radio" name="male" value="male" checked> musko
-    <input id="soki22" type="radio" name="female" value="female"> zensko
-    <input id="soki23" type="submit" value="Druga forma gotova">
+
+
+  <form id="soki24" class="klasa6"  action="/action_page.php" method="get">
+    <input id="soki25" class="sok6" type="text" name="aaa" autofocus >
+    <input id="soki26" class="sok7" type="text" name="abc" >
+    <input id="soki27" class="sok8" type="submit" value="Prva forma gotova">
   </form>
   <br>
 
-  <form id="soki24" class="klasa6"  action="/action_page.php" method="get/post">
-    <input id="soki25" type="text" name="aaa" >
-    <input id="soki26" type="text" name="abc" >
-    <input id="soki27" type="submit" value="Prva forma gotova">
-  </form>
-  <br>
+  
 
 
-<script>
-var input = document.getElementById('soki25');
-input.focus();
-input.select();
+  <form id="soki90" class="klasa5" action="#" method="get">
+       <label for="kiki1" id="text1" class="sok71">MUSKO</label>
+    <input type="checkbox" name="kiki1" id="kiki1" class="sok70">
+    <label for="kiki2" id="text2" class="sok72">ZENSKO</label>
+     <input type="checkbox" name="kiki22" id="kiki22" class="sok73" checked>
+      <br><br>
+       <label for="radio1" id="textt1" class="sok74">MUSKO</label>
+      <input type="radio" name="radio" id="radio1" class="sok75" checked>
+       <label for="radio2" id="textt2" class="sok76">ZENSKO</label>
+       <input type="radio" name="radio" id="radio2" class="sok77">
+       <button> <span>DRUGA FORMA GOTOVA</span> </button>
+    </form>
 
-</script>
+<br>
 
 
 
 
-  <form id="myForm" class="klasa7" method="get/post">
-    <input id="soki28" type="email" name="email"  value="Unesi mail">
-    <input id="soki29" type="date" name="datum">
-    <input id="soki30" type="password"  name="pass" placeholder="Unesi sifru">
-    <input id="soki31" type="text" title="nema kucanja" name="beskucnik" placeholder="Ne moze kucati" readonly>
-    <input id="soki32" type="button" onclick="myFunction()" value="Reset form">
+
+  <form id="myForm" class="klasa7" method="get">
+    <input id="soki28" class="sok9" type="email" name="email"  value="Unesi mail">
+    <input id="soki29" class="sok10" type="date" name="datum">
+    <input id="soki30" class="sok11" type="password"  name="pass" placeholder="Unesi sifru">
+    <input id="soki31" class="sok12" type="text" title="nema kucanja" name="beskucnik" placeholder="Ne moze kucati" readonly>
+    <input id="soki32" class="sok13" type="reset"  value="Reset form">
 
 </form>
 
 
 
-<script>
-function myFunction() {
-  document.getElementById("myForm").reset();
-}
-</script>
-
-
 <br>
 <br>
 
 
-<form id="soki33" class="klasa8" method="get/post">
+<form id="soki33" class="klasa8" method="get">
 
     <fieldset id="soki34">
-        <legend id="soki38">pozz</legend>
-        Godine: <input id="soki35" title="Nema mijenjanja" type="text" name="god" placeholder="27" readonly><br>
-        Najdraza boja: <input id="soki36" type="color" name="bojja"><br>
-        <input id="soki37" type="submit" value="Zavrsava formu">
+        <legend id="soki38" class="sok14">pozz</legend>
+        Godine: <input id="soki35" class="sok15" title="Nema mijenjanja" type="text" name="god" placeholder="27" readonly><br>
+        Najdraza boja: <input id="soki36" class="sok16" type="color" name="bojja"><br>
+        <input id="soki37" class="sok17" type="submit" value="Zavrsava formu">
 
     </fieldset>
 
@@ -91,18 +87,28 @@ function myFunction() {
 <br>
 <br>
 
-<form id="soki38" class="klasa9" method="get/post">
+<form id="soki38" class="klasa9" method="get">
     <textarea name="message" rows="10" cols="30" placeholder="POSALJI FEEEDBACK"></textarea><br>
 
 <select id="soki44" name="cars" size="2" multiple >
-    <option id="soki39"  value="izab" disabled>Izaberi Ocjenu</option>
-    <option id="soki39" value="One">1</option>
-    <option id="soki40" value="Two">2</option>
-    <option id="soki41" value="Three">3</option>
-    <option id="soki42" value="Four" selected>4</option>
+    <option id="soki39" class="sok18"  value="izab" disabled>Izaberi Ocjenu</option>
+    <option id="soki39" class="sok19" value="One">1</option>
+    <option id="soki40" class="sok20" value="Two">2</option>
+    <option id="soki41" class="sok21" value="Three">3</option>
+    <option id="soki42" class="sok22" value="Four" selected>4</option>
     <br>
-    <input id="soki43" type="submit" value="Zavrsava forma">
+    <input id="soki43" class="sok23" type="submit" value="Zavrsava forma">
 </form>
+
+
+
+
+
+<form action="#" method="get/post"> <label for="check1" id="labelZaCheck1">MUSKO</label>
+     <input type="checkbox" name="check1" id="check1"><label for="check2" id="labelZaCheck2">ZENSKO</label>
+      <input type="checkbox" name="check2" id="check2" checked> <br><br> <label for="radio1" id="labelZaRadio1">MUSKO</label>
+       <input type="radio" name="radio" id="radio1" checked> <label for="radio2" id="labelZaRadio2">ZENSKO</label>
+        <input type="radio" name="radio" id="radio2"><button> <span>DRUGA FORMA GOTOVA</span> </button></form>
 
 
 
