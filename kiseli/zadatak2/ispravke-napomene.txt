@@ -1,21 +1,21 @@
 ***POSLANO POSLIJE ROKA - sa razlogom
 
-- uradio si u drugom fajlu...sacuvo si je u folderu abu a ne kiseli/zadatak2...myb je zbog slike al cu te zamolit da ubuduce radis sve u svom folderu, kopiraj sliku od mene al ne tu stavljat svoj rad <3
++ uradio si u drugom fajlu...sacuvo si je u folderu abu a ne kiseli/zadatak2...myb je zbog slike al cu te zamolit da ubuduce radis sve u svom folderu, kopiraj sliku od mene al ne tu stavljat svoj rad <3
 + prva dva heada ti nemaju klasu
 + div nema klasu...vecina elemenata u divu nemaju klasu
-- da li znas zasto ti je font drugaciji nego kod mene?
++ da li znas zasto ti je font drugaciji nego kod mene? --> <pre></pre>
 + opet head nema klasu
-- zasto ti je druga forma prije prve?
++ zasto ti je druga forma prije prve?
 + u tagu pored ID i ACTION ti treba klasa i jos nesto...pokusaj skontat sta
 + u toj formi nikako nemas klase
-- zasto methoda ide get/post??? --> ZASTO SI SAD STAVIO SAMO GET???
-- u checkboxu i radio fieldovima...kad kliknem na musko / zensko,  kvadradic / krugic se ne selekt pokusaj popravit --> RADIO TI JE UREDU...prvi CHECKBOX UREDU, U GRUDOM IMAS GRESKU POKUSAJ SKONTAT I ISPRAVIT
++ zasto methoda ide get/post??? --> ZASTO SI SAD STAVIO SAMO GET???
++ u checkboxu i radio fieldovima...kad kliknem na musko / zensko,  kvadradic / krugic se ne selekt pokusaj popravit --> RADIO TI JE UREDU...prvi CHECKBOX UREDU, U GRUDOM IMAS GRESKU POKUSAJ SKONTAT I ISPRAVIT
 + u tvojoj drugoj klasi (moja prva) imas malu gresku u tagu forme...provjeri i ispravi...opet fale klasa i jos jedna stvar
 + nemas klasu nigdje
-- dodaj klasu na svaki elemenat ko sto smo rekli danas u ICHECKENU --> u nekim fieldovima jos uvijek nema ID i klase...negdje samo klasa fali...provjeri pa dodaj
++ dodaj klasu na svaki elemenat ko sto smo rekli danas u ICHECKENU --> u nekim fieldovima jos uvijek nema ID i klase...negdje samo klasa fali...provjeri pa dodaj
 + koristio si js za focus (da se selkta cim se pokrene)..al u zadataku se js ne smije koristit...pa pokusaj to uradit samo pomocu htmla
 + opet si koristio js za reset...pokusaj preko htmla samo
-- nemas zadnji field!!!
-- u formi MYFROM prvi field ti nije uredu...pokusaj skontat sto i ispravi
++ nemas zadnji field!!!
++ u formi MYFROM prvi field ti nije uredu...pokusaj skontat sto i ispravi
 
             JAVI AKO STA ZATREBA...i na pitanjima mi ovdje odgovori ill na viber <3
