@@ -17,3 +17,5 @@
 - opet si koristio js za reset...pokusaj preko htmla samo
 - skoro nigdje nema klase
 - nemas zadnji field
+
+
