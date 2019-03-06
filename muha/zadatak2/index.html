@@ -8,7 +8,7 @@
     <meta name="author" content="muhamed">
     <meta name="description" content="drugizadatak">
     <meta name="keywords" content="vjezba, web">
-    <link rel="shortcut icon" href="slike/download.png">
+    <link id="ikona" class="ikona" rel="shortcut icon" href="slike/download.png">
 </head>
 <body>
 
@@ -77,10 +77,11 @@
                  <button id="dugmenovo" class="dugmenovo">ZAVRSAVA FROMU</button>
                </fieldset>
              </form>
-             <form action="#"><textarea name="feed" id="feed" cols="30" rows="10" placeholder="POSALJI FEEDBACK">
+             <form action="#">
+               <textarea name="feed" id="feed" class="feed" cols="30" rows="10" placeholder="POSALJI FEEDBACK"></textarea>
 
-             </textarea>
              <br>
+             
               <select name="ocjena" id="ocjena" title="mozes izabrati 2 ocjene" size="2" multiple>
                 <option value="" disabled>IZABERI OCJENU</option>
                 <option value="1" id="jedan" class="jedan">1</option>
