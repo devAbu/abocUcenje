@@ -1,0 +1,83 @@
+#head1{
+
+  color: red;
+   text-align: center;
+    text-decoration: underline;
+
+}
+
+
+#parag1{
+
+  background:brown ;
+   height:120px;
+    width:100%;
+}
+
+
+#parag2{
+
+  background:yellow ;
+   width: 70em;
+     margin-left: auto;
+      margin-right: auto;
+
+}
+
+
+.tab2, .sokith{
+
+  border: 1px solid red;
+
+}
+
+.sokiLink{
+
+  text-shadow: 3px 3px #FF0000;
+
+}
+
+
+
+#soki51{
+
+  margin: 0 0 0px 1100px;
+
+}
+
+
+#soki60{
+
+  text-indent: 50px;
+    text-align: justify;
+     letter-spacing: 4px;
+}
+
+
+div.soki65{
+
+  height:80px;
+   width:50%;
+    border:5px solid red;
+
+}
+
+
+div.soki67{
+
+  height:80px;
+   width:100%;
+    overflow:auto;
+     opacity: 0.5;
+}
+
+
+#soki69{
+text-align: center;
+color:red;
+text-decoration: underline;
+
+
+
+
+}
