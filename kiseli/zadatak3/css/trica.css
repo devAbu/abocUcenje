@@ -50,7 +50,7 @@
 
   text-indent: 50px;
     text-align: justify;
-     letter-spacing: 4px;
+     letter-spacing: 6px;
 }
 
 
@@ -68,7 +68,7 @@ div.soki67{
   height:80px;
    width:100%;
     overflow:auto;
-     opacity: 0.5;
+
 }
 
 
@@ -81,3 +81,13 @@ text-decoration: underline;
 
 
 }
+
+.soki63{
+
+  opacity: 0.3;
+    transition: 0.3s;
+
+}
+
+
+.soki63:hover {opacity: 5}
