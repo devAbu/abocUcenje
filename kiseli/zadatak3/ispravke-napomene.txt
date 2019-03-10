@@ -1,0 +1,9 @@
+***POSLANO U ROKU
+
+- u head tagu nista ne smije imat ID i CLASS
+- najbolja praksa je da prvo napravis folder css i onda u njemu .css fajl i tako ga i linkujes...a ne na istom mjestu gdje je .html
+- link ne smije da ima liniju ispod
+- u paragrafu gdje ti je ID = soki60...nisi uradio razmak izmedju rijeci
+- onaj crveni kvadratic se mogo uradit na drugi nacin (da se ne koristi div u divu)..ali moze i ovako za ovakve zadatak!!!
+- u tom crvenom kvadraticu nemas da se na hover vidljivost vrati na 100%
+- fale ti liste (dvije)
