@@ -12,6 +12,7 @@
   background:brown ;
    height:120px;
     width:100%;
+
 }
 
 
@@ -31,13 +32,13 @@
 
 }
 
+
 .sokiLink{
 
   text-shadow: 4px 1px #FF0000;
-  text-decoration: none;
+   text-decoration: none;
 
 }
-
 
 
 #soki51{
@@ -52,6 +53,7 @@
   text-indent: 50px;
     text-align: justify;
      letter-spacing: 6px;
+
 }
 
 
@@ -74,14 +76,13 @@ div.soki67{
 
 
 #soki69{
+
 text-align: center;
-color:red;
-text-decoration: underline;
-
-
-
+ color:red;
+  text-decoration: underline;
 
 }
+
 
 .soki63{
 
@@ -92,3 +93,19 @@ text-decoration: underline;
 
 
 .soki63:hover {opacity: 5}
+
+
+#sokic7 {
+
+    list-style-type: none;
+     margin-left: -20px;
+
+}
+
+
+#soki72{
+
+list-style-type:none;
+ margin-left: -20px;
+
+}
