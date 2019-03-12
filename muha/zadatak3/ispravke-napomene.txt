@@ -1,0 +1,11 @@
+*** POSLANO POSLIJE ROKA - sa razlogom
+
+- ne smije se nista ubuce kopirat, jer svako ima svoj nacin kucanja koda...moram znat sve detaljno!!!
+
+PREGLEDO SAM SAMO CSS FAJL JER MI HTML UZO OD KISELOG
+
+- #paragraph1 --> ne treba da ima "width: 100%"...default-no svakako ima 100%...ali nije greska uopste, samo eto da se zna
+- #muhahead1 --> nije dobro uradjeno, mislim prebaci se on na desnu stranu ali nije prakticno ono radit jer ce te jebavat za responsive...pokusaj na drugi nacin to odradit ako ne uspijes javi da ti posaljem kako ide
+- #muhalo --> sve je uredu samo si zaboravio da dodas razmak izmedju rijeci...imas razmak izmedju slova al nemas izmedju rijeci
+- opacity ne ide preko 1...ti si stavio 5 i on ga vrati na normalnu vidljivost ali to je u css opacity: 1...znaci opacity ide od 0 do 1, gdje ti je 0 --> 0% vidljivosti a 1 100% vidljivosti (0.3 je 30% vidljivost) --> jesil i ovo uzo od kise jer je i on imo istu gresku haha
+- za liste...prva je uredu, ali druga nije...jer nisam trazio da se koristi fontAwesome...nije to greska super rjesenje (ali jesil i to vidio od kise?)...poksuj uradit na drugi nacin gdje ce bukvalno nema slika da bude umjesto ikone sto si stavio...ako ne uspijes javi da ti javim kako <3
