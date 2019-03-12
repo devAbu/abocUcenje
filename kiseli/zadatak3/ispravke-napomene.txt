@@ -4,9 +4,15 @@
 + ko sto sam reko super sto si koristio fontAwesome...ali pokusaj da uradis ono sa listama preko css bez fontAwesome
 + najbolja praksa je da prvo napravis folder css i onda u njemu .css fajl i tako ga i linkujes...a ne na istom mjestu gdje je .html
 + link ne smije da ima liniju ispod
-- u paragrafu gdje ti je ID = soki60...nisi uradio razmak izmedju rijeci
++ u paragrafu gdje ti je ID = soki60...nisi uradio razmak izmedju rijeci
 + - onaj crveni kvadratic se mogo uradit na drugi nacin (da se ne koristi div u divu)..ali moze i ovako za ovakve zadatak!!!
 + u tom crvenom kvadraticu nemas da se na hover vidljivost vrati na 100%
-- opacity moze ide do 1...od 0 (0%) do 1 (100%)
++ opacity moze ide do 1...od 0 (0%) do 1 (100%)
 + fale ti liste (dvije)
-- samo da jos jednom napomenem style listi uradi preko css
++ - samo da jos jednom napomenem style listi uradi preko css...pogledaj dole css kod kako se to jednostavnije uradi, ali i ovo tvoje je odlicno
+
+KOD:   
+
+ul{
+    list-style-image: url("../images/icon.ico");
+}
