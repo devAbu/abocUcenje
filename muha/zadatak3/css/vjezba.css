@@ -1,0 +1,110 @@
+#head1{
+
+  color: red;
+   text-align: center;
+    text-decoration: underline;
+
+}
+
+
+#paragraph1{
+
+  background:brown ;
+   height:110px;
+    width:100%;
+
+}
+
+
+#paragraph2{
+
+  background:yellow ;
+   width: 75em;
+     margin-left: auto;
+      margin-right: auto;
+
+}
+
+
+.tabela1, .muha{
+
+  border: 1px solid red;
+
+}
+#muhahead1{
+
+  margin: 0 0 0px 1000px;
+
+}
+
+.muhakink1{
+
+  text-shadow: 5px 1px #FF0000;
+   text-decoration: none;
+
+}
+
+
+#muhalo{
+
+  text-indent: 50px;
+    text-align: justify;
+     letter-spacing: 5px;
+
+}
+
+
+div.muha51{
+
+  height:80px;
+   width:50%;
+    border:5px solid red;
+
+}
+
+
+div.muha53{
+
+  height:80px;
+   width:100%;
+    overflow:auto;
+
+}
+
+.muha55{
+
+  opacity: 0.3;
+    transition: 0.3s;
+
+}
+
+
+.muha55:hover {opacity: 5}
+
+
+
+
+#muha56{
+
+text-align: center;
+ color:red;
+  text-decoration: underline;
+
+}
+
+
+
+#muhamed58 {
+
+    list-style-type: none;
+     margin-left: -20px;
+
+}
+
+
+#muha70{
+
+list-style-type:none;
+ margin-left: -20px;
+
+}
