@@ -50,9 +50,10 @@
 
 #soki60{
 
-  text-indent: 50px;
+   text-indent: 50px;
     text-align: justify;
-     letter-spacing: 6px;
+     letter-spacing: 4px;
+      word-spacing: 4px;
 
 }
 
@@ -92,7 +93,7 @@ text-align: center;
 }
 
 
-.soki63:hover {opacity: 5}
+.soki63:hover {opacity: 1}
 
 
 #sokic7 {
@@ -107,5 +108,40 @@ text-align: center;
 
 list-style-type:none;
  margin-left: -20px;
+
+}
+
+
+
+
+
+.anes-list {
+
+    list-style: none;
+    padding-left: 22px;
+
+}
+
+
+.anes-list li {
+
+    position: relative;
+    padding-left: 20px;
+
+}
+
+
+.anes-list li:before {
+
+    content: '';
+    width: 13px;
+    height: 13px;
+    position: absolute;
+    background-image: url('../slike/oma1.jpg');
+    background-size:cover;
+    background-position: center;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
 
 }
