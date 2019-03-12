@@ -1,0 +1,4 @@
+*** POSLANO U ROKU 
+
+- ne smije se ubuce nista kopirat!!!
+- najbolja praksa jeste da odvojis fajl konekcije u poseban fajl (npr. connection/connection.php)
