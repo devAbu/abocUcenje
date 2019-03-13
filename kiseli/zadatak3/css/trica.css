@@ -1,6 +1,6 @@
 #head1{
 
-  color: red;
+  color: blue;
    text-align: center;
     text-decoration: underline;
 
@@ -150,5 +150,5 @@ list-style-type:none;
 ul{
 
     list-style-image: url("../slike/oma1.jpg");
-    
+
 }
