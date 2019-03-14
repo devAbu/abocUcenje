@@ -1,0 +1,14 @@
+*** ROK DO PONEDELJKA NAVECER
+
+-- LINK : https://drive.google.com/open?id=1iAYBuicPiEp2GhudaohIwOuktEGxnR8t
+
+- pogledat video preko link-a
+- ovaj put se mora koristit fontAwesome za ikone
+- HOME, ABOUT US, LOGIN i REGISTER nisu link nego obicni tekst, kad hover-a mis se prebaci na onu rucicu kao da je link (ko sto je prikazano u videu) i boja se promijeni
+- input filedovi dobiju drugu boju okvira kad se pritisne na njih (krene se kucat)
+- buttoni imaju sjenu na hover
+- kad se button CREATE FREE ACC klikne, ako su filedovi prazni upozori ga i ako je u field-u za email unsen pogresan mail (npr. abu.almo a ne abu.almo@gmail.com) upozori ga
+- button LOGIN se ne moze klknut i mis dobije ikone zabrane
+- input field ispod button-a LOGIN kad se klikne (krene se kucat) poveca se do kraja ekrana
+- head ispod sna hover promijeni "izgled" ko sto je prikazano u videu
+- zadnje je textarea koja se ne moze povecat ili smanjivat 
