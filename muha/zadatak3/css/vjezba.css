@@ -109,8 +109,8 @@ list-style-type:none;
  margin-left: -20px;
 }
 
-.muha67 li{
-
+ .muha67 li{
+  position: relative;
   padding-left: 30px;
 }
 
@@ -123,10 +123,14 @@ background-image: url('../slike/download.png');
 position: absolute;
 background-size: cover;
 background-position: left;
-left: 2%;
-top:104%;
+left: 0%;
+top:0%;
 transform: translate(10%);
 
-
-
 }
+
+
+/* kad imamo manje slike (ikone)
+ul{
+  list-style-image: url("../slike/download.png");
+} */
