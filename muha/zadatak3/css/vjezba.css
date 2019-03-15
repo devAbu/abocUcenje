@@ -114,19 +114,6 @@ list-style-type:none;
   padding-left: 30px;
 }
 
-.muha67 li:before {
-
-content: '';
-width: 20px;
-height: 20px;
-background-image: url('../slike/download.png');
-position: absolute;
-background-size: cover;
-background-position: left;
-left: 2%;
-top:104%;
-transform: translate(10%);
-
-
-
+ul{
+    list-style-image: url("../slike/download.png");
 }
