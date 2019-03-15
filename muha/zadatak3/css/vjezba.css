@@ -114,11 +114,7 @@ list-style-type:none;
   padding-left: 30px;
 }
 
-<<<<<<< HEAD
-ul{
-    list-style-image: url("../slike/download.png");
-}
-=======
+
 .muha67 li:before {
 
 content: '';
@@ -139,4 +135,3 @@ transform: translate(10%);
 ul{
   list-style-image: url("../slike/download.png");
 } */
->>>>>>> 3297394ef590ffea0d51f9377be9c4204e2ff401
