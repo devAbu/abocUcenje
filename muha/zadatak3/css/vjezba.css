@@ -109,11 +109,34 @@ list-style-type:none;
  margin-left: -20px;
 }
 
-.muha67 li{
-
+ .muha67 li{
+  position: relative;
   padding-left: 30px;
 }
 
+<<<<<<< HEAD
 ul{
     list-style-image: url("../slike/download.png");
 }
+=======
+.muha67 li:before {
+
+content: '';
+width: 20px;
+height: 20px;
+background-image: url('../slike/download.png');
+position: absolute;
+background-size: cover;
+background-position: left;
+left: 0%;
+top:0%;
+transform: translate(10%);
+
+}
+
+
+/* kad imamo manje slike (ikone)
+ul{
+  list-style-image: url("../slike/download.png");
+} */
+>>>>>>> 3297394ef590ffea0d51f9377be9c4204e2ff401
