@@ -98,8 +98,9 @@ text-align: center;
 
 #sokic7 {
 
-    list-style-type: none;
-     margin-left: -20px;
+    /*list-style-type: none;*/
+     margin-left: 4px;
+      list-style-type: decimal-leading-zero;
 
 }
 
