@@ -1,0 +1,147 @@
+.navbar1{
+  width: 100%;
+  text-align:left;
+  cursor: pointer;
+  margin-left: 80px;
+
+}
+.navbar1 a {
+float: left;
+padding: 12px;
+color: #d84e08;
+text-decoration: none;
+font-size: 20px;
+}
+#ikonice{
+  color: yellow;
+}
+#navbar a:hover{
+color:#b57a72;
+}
+
+.registar{
+  text-align: center;
+  margin: 105px auto;
+
+
+}
+.registar1 input {
+
+
+  border: 2px solid #efc710;
+  border-radius: 1.7em / 0.4em;
+  padding: 8px;
+  color: red;
+  margin-left: 3px;
+  margin-bottom: 15px;
+
+
+}
+
+#btn {
+  background-color: #0f9611;
+  border: none;
+  color: white;
+  padding: 18px 32px;
+  border-radius: 1.7em / 0.4em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 3px;
+  cursor: pointer;
+}
+#btn:hover{
+  box-shadow: 0 7px 15px #6dd117;
+}
+#btn2 {
+  background-color: #0f9611;
+  border: none;
+  color: white;
+  padding: 18px 80px;
+  border-radius: 1.7em / 0.4em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 3px;
+  cursor: pointer;
+  cursor: not-allowed;
+}
+#btn2:hover{
+  box-shadow: 0 7px 15px #6dd117;
+}
+
+.registar2{
+  text-align: center;
+  margin: -90px auto;
+
+
+
+}
+.registar2 input {
+
+
+  border: 2px solid #efc710;
+  border-radius: 1.7em / 0.4em;
+  padding: 8px;
+  color: red;
+  margin-left: 3px;
+  margin-bottom: 15px;
+
+
+}
+
+input[type=text]:focus,input[type=email]:focus, input[type=password]:focus {
+  border: 2px solid #1e5b1d;
+  outline: none;
+}
+
+#inputnovi{
+    margin: 120px auto;
+
+
+}
+#idemo {
+  border: 2px solid #efc710;
+  border-radius: 1.7em / 0.4em;
+  padding: 8px;
+  padding-right: 350px;
+  color: red;
+  margin-left: 3px;
+  margin-bottom: 15px;
+}
+  #idemo:focus{
+ resize: horizontal;
+  width: 75%;
+}
+
+#par{
+  margin-top: -100px;
+  font-size: 30px;
+  font-weight:bold;
+}
+#par:hover{
+  font-size: 500%;
+font-family: cursive;
+}
+#par:active{
+  width: auto;
+}
+
+
+.textbox{
+
+text-align: center;
+}
+#muhaa{
+  border: 1px solid black;
+  resize:none;
+  overflow: auto;
+  border-radius: 15%;
+
+
+}
+#muhaa:hover{
+  cursor: none;
+}
