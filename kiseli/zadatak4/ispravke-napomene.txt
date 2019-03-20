@@ -13,5 +13,5 @@
 - i opet ID ne smije bit istii
 - .anes2 ne postoji u HTML-u
 - #anes3...nema potrebe da pravis prazan div da bi odvojio dvije stvari...samo u donjoj dodas margin-top...il u gornjoj margin-bottom...moze i ovako kako si ti uradio al nema potrebe...zbunjuje pomalo bezveze
-- za povecavanje input field-a ima laksi (makar je kraci) i bolji nacin da se odradi...pokusaj skontat ako ne javi :D
+- za povecavanje input field-a ima laksi (makar je kraci) i bolji nacin da se odradi...pokusaj skontat ako ne javi...i nek se sporo povecava...a ne odjednom :D
 - #anes15 pokusaj uradit preko css keyword-a SCALE()...pa ces aBd vidjet razliku
