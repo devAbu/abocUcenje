@@ -5,7 +5,7 @@
 </head>
 <body>
 	<?php
-		require 'connection.php';
+		require 'connection/connection.php';
         //$sql = "SELECT * FROM";
         //$result = $dbc->query($sql);
         //$count = $result->num_rows;
