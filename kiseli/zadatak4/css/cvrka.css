@@ -1,4 +1,4 @@
-#soki1{
+i{
 
   color:yellow;
 
@@ -21,22 +21,17 @@
 }
 
 
+
+
 #soki4{
 
-  color:yellow;
    margin-left: 15px;
 
 }
 
 
-.input{
 
-  border-radius: 9999em;
-
-}
-
-
-#soki9{
+.soki9{
 
   border: 2px solid orange;
    padding: 5px;
@@ -46,7 +41,7 @@
 }
 
 
-#soki9:focus{
+.soki9:focus{
    border-color:green;
   }
 
@@ -57,7 +52,6 @@
 ::placeholder {
 
   color: red;
-   opacity: 1;
 
 }
 
@@ -81,14 +75,13 @@ display: block;
 
 
 
-#soki30{
+.kes1{
 
   background-color: #4CAF50;
    border: none;
     color: white;
      padding: 15px 32px;
       text-align: center;
-       text-decoration: none;
         display: inline-block;
          font-size: 16px;
           margin: 4px 2px;
@@ -106,7 +99,7 @@ display: block;
 }
 
 
-#soki30:hover{
+.kes1:hover{
 
   box-shadow: 5px 5px 5px grey;
 
@@ -115,34 +108,12 @@ display: block;
 
 #soki51{
 
-  background-color: #4CAF50;
-   border: none;
-    color: white;
-     padding: 15px 32px;
-      text-align: center;
-       text-decoration: none;
-        display: inline-block;
-         font-size: 16px;
-          margin: 4px 2px;
-           cursor: pointer;
-             border-radius: 30%;
-              width: 18%;
-
-
-  display: block;
-   text-align: center;
-    margin-left: auto;
-     margin-right: auto;
-      margin-top: 20px;
-       cursor: not-allowed;
+  cursor: not-allowed;
+  margin-bottom: 30px;
 
 }
 
-#soki51:hover{
 
-  box-shadow: 5px 5px 5px grey;
-
-}
 
 
   #soki34{
@@ -152,15 +123,6 @@ display: block;
     margin-left: auto;
      margin-right: auto;
       margin-top: 40px;
-
-  }
-
-
-  .anes2{
-
-    resize: horizontal;
-     width: 50%;
-     color:red;
 
   }
 
@@ -186,7 +148,7 @@ display: block;
 }
 
 
-.text{
+#text{
 
         resize: horizontal;
        width: 50%;
@@ -194,14 +156,14 @@ display: block;
     }
 
 
-    .text:active {
+    #text:active {
 
         width: auto;
 
     }
 
 
-    .text:focus {
+    #text:focus {
 
         min-width: 99%;
 
@@ -224,5 +186,12 @@ display: block;
 #tv1{
 
   text-align: center;
+
+}
+
+
+.anes-list{
+
+  list-style: none;
 
 }
