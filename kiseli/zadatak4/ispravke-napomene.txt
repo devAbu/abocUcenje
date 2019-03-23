@@ -1,17 +1,17 @@
 *** POSLANO U ROKU
 
-- pokusaj onaj navbar uradit preko liste...jer je bolji nacin za navbar
-- na hover HOME, ABOUT US i ostalih mis se ne prebacuje u onu rucicu ko da je link
-- kad si radio border-radius za input fieldove...postoji bolji nacin...pokusaj saznat koji je..il mi javi da ti kazem
-- ID ne smije bit isti ni u jednom elementu / tagu...klasa se moze ponavljat ali ID nikad
-- ne valja nikad u span stavljat puno filedova...inace inputi ne idu u span...u span samo za odvajanje teksta najvisee :D 
-- .input...i da obrisem taj css nista se ne promijeni...zasto je onda tu?
-- ::placeholder...ne treba mu opacity:1...jer je svakako defaulti opacity 1
-- nisi trebo za svaku fontAwesome ikonu pisat ID...i onda stavljat color: yellow...jer treba sto vise skratit velicinu kod...mogo si uradit: i{ color: yellow}
-- u #soki30 (prvi button) ne treba ti text-decoration...jer button svakako nema liniju ispod (<a> dobije liniju ispod) i sutra cemo se vidjet aBd pa cu rec jos par savjeta sta da ispravis...da sad ne pisem myb necu znat objasnit :P 
-- #soki51...posto je isti ko #soki30 trebo si napravit klasu i onda u oba buttona ubacis tu klasu...da ne ponavljas kod...da se sto vise smanji kod
-- i opet ID ne smije bit istii
-- .anes2 ne postoji u HTML-u
-- #anes3...nema potrebe da pravis prazan div da bi odvojio dvije stvari...samo u donjoj dodas margin-top...il u gornjoj margin-bottom...moze i ovako kako si ti uradio al nema potrebe...zbunjuje pomalo bezveze
+- pokusaj onaj navbar uradit preko liste...jer je bolji nacin za navbar --> kad pravis navbar...HOME ide u jedan li, ABOUT US u jedan...i tako...svaki item u posebnom <li>
+- na hover HOME, ABOUT US i ostalih mis se ne prebacuje u onu rucicu ko da je link --> ko  da je link sto znaci da ne smije bit link (bez taga <a>)
++ kad si radio border-radius za input fieldove...postoji bolji nacin...pokusaj saznat koji je..il mi javi da ti kazem
++ ID ne smije bit isti ni u jednom elementu / tagu...klasa se moze ponavljat ali ID nikad
++ ne valja nikad u span stavljat puno filedova...inace inputi ne idu u span...u span samo za odvajanje teksta najvisee :D 
++ .input...i da obrisem taj css nista se ne promijeni...zasto je onda tu?
++ ::placeholder...ne treba mu opacity:1...jer je svakako defaulti opacity 1
++ nisi trebo za svaku fontAwesome ikonu pisat ID...i onda stavljat color: yellow...jer treba sto vise skratit velicinu kod...mogo si uradit: i{ color: yellow}
++ u #soki30 (prvi button) ne treba ti text-decoration...jer button svakako nema liniju ispod (<a> dobije liniju ispod) i sutra cemo se vidjet aBd pa cu rec jos par savjeta sta da ispravis...da sad ne pisem myb necu znat objasnit :P 
++ #soki51...posto je isti ko #soki30 trebo si napravit klasu i onda u oba buttona ubacis tu klasu...da ne ponavljas kod...da se sto vise smanji kod
++ i opet ID ne smije bit istii
++ .anes2 ne postoji u HTML-u
+- #anes3...nema potrebe da pravis prazan div da bi odvojio dvije stvari...samo u donjoj dodas margin-top...il u gornjoj margin-bottom...moze i ovako kako si ti uradio al nema potrebe...zbunjuje pomalo bezveze --> ako si obriso u HTML onda ti ne treba ni u CSS
 - za povecavanje input field-a ima laksi (makar je kraci) i bolji nacin da se odradi...pokusaj skontat ako ne javi...i nek se sporo povecava...a ne odjednom :D
 - #anes15 pokusaj uradit preko css keyword-a SCALE()...pa ces aBd vidjet razliku
