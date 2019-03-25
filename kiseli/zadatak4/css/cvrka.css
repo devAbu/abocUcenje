@@ -222,3 +222,12 @@ li{
   float: left;
 
 }
+
+
+.grow {
+   transition: all .4s ease-in-out;
+  }
+
+.grow:hover {
+   transform: scale(0.99);
+  }
