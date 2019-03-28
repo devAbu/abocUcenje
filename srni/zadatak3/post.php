@@ -1,16 +1,7 @@
-<?php
- 
-$mail = false;
-$godina = false;
-
-if(isset($_POST['mail'])){
-    $mail = $_POST['mail'];
-}
-if(isset($_POST['godina'])){
-    $godina = $_POST['godina'];
-}
-echo 'Received email was: ' . $mail;
-echo 'godina: ' . $godina;
-
-
-?>
+			<?php 
+				require 'connection/connection.php';
+	    		$ime = $_POST['mail'];
+	    		$juhu = $_POST['godina'];
+		        $sql = "INSERT INTO postt( mail, godina) VALUES( '$mail','$godina')";
+		        $result = $dbc->query($sql);
+        	 ?>

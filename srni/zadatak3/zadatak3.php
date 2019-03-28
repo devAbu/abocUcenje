@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>zadatak 2</title>
+	<title>zadatak 3</title>
 </head>
 <body>
         <form name="forma1" method="get">
@@ -11,11 +11,12 @@
 	        <input type="text" name="ime" id="ime">
 	        <input type="submit" name="submit" value="Submit">
 	    </form>	
+
 	    <form name="forma2" method="post">
 	        <label for="mail">mail</label>
 	        <input type="text" name="mail" id="mail">
 	        <label for="godina">godina</label>
-	        <input type="text" name="godina" id="godina">
+	        <input type="number" name="godina" id="godina">
 	        <input type="submit" name="submit" value="Submit">
 	    </form>	
 
@@ -31,11 +32,13 @@
           $.ajax({
             type: 'get',
             url: 'get.php',
-            data: $('form').serialize(),
+            data: $('forma1').serialize(),
             success: function () {
               alert('dobro je');
             }
           });
+             alert('nije dobro');
+
         });
       });
 
@@ -49,11 +52,12 @@
           $.ajax({
             type: 'post',
             url: 'post.php',
-            data: $('form').serialize(),
+            data: $('forma2').serialize(),
             success: function () {
               alert('dobro je');
             }
           });
+              alert('nije dobro');
         });
       });
     </script>   
