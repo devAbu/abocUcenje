@@ -15,17 +15,18 @@
 	    	<?php require 'connection/connection.php';
 	    		$ime = $_POST['ime'];
 	    		$juhu = $_POST['juhu'];
-		        $sql = "INSERT INTO zadatak2(broj, juhu, ime) VALUES('$broj', '$juhu','$ime')";
+		        $sql = "INSERT INTO zadatak2( juhu, ime) VALUES( '$juhu','$ime')";
 		        $result = $dbc->query($sql);
 
-		        $sql = " SELECT * FROM zadatak2";
+		        $sql = " SELECT * FROM zadatak2 order by broj desc ";
 		        $result = $dbc->query($sql);
 		        $count = $result->num_rows;
 		        echo "<ul>";
 		        if ($count > 0) {
-		            while ($row = $result->fetch_assoc()) {
-					echo "<li>" . $row["broj"]. "</li> <li>" . $row["juhu"]. "</li> <li> " . $row["ime"]. "</li>";		            }
-		        }
+		           $row = $result->fetch_assoc() ;
+					echo "<li>" . $row["broj"]. "</li> <li>" . $row["juhu"]. "</li> <li> " . $row["ime"]. "</li>";		            
+				}
+		        
 		        echo "</ul>";
         	 ?>
     
