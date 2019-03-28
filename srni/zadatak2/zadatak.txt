@@ -1,5 +1,8 @@
 ***ROK NEDJELJA NAVECER
 
-- uzeti poslane podatke (posalji ih sam --> moze preko URL, odnosno linka)
-- te podatke ubaciti u tabelu 
-- prikazati zadnje unesene podatke (odnosno podatke koje u tom trenutku ubacujes u bazu)
++uzeti poslane podatke (posalji ih sam --> moze preko URL, odnosno linka)
++te podatke ubaciti u tabelu 
++ prikazati zadnje unesene podatke (odnosno podatke koje u tom trenutku ubacujes u bazu)
+
+
+http://localhost/github/abocPitanja/back-end/zadatak2/?ID=50&text=juhuomar&session=session
