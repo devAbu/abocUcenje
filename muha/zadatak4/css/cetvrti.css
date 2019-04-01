@@ -18,7 +18,7 @@ list-style-type: none;
 }
 
 
-}
+/*}*/
 #navbar:hover{
 opacity: 0.9;
 
@@ -115,13 +115,13 @@ input:focus {
   color: red;
   margin-left: 3px;
   margin-bottom: 15px;
-
-
+  width: 25%;
+  transition: width 8s ease-out;
 }
-  #idemo:active{
+  #idemo:focus{
 
   width: 75%;
-  transition: 8s;
+  transition: width 8s ease-in;
 
 }
 
