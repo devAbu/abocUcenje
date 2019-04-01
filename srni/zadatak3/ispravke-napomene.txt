@@ -1,0 +1,6 @@
+*** POSLIJE ROKA
+
+- ubuduce vise pokusavat da se zadatak odradi...duze guglat hahha
++ u get.php i post.php ne saljes nikakav response (ne komunicira backend sa frontend)
++ jqeury selection ide preko ID / KLASE / TAG
++ u post si fulio imena
