@@ -1,0 +1,154 @@
+li {
+
+  display: inline;
+
+}
+
+
+@media screen and (max-width: 39.9375em) {
+  .soki2{
+
+    color:#DAA520;
+    font-style: normal;
+     cursor: grab;
+        margin-left: 5px;
+
+  }
+}
+
+
+@media screen and (min-width: 40em) {
+  .soki2{
+
+    color:blue;
+    font-style: normal;
+     cursor: grab;
+        margin-left: 5px;
+
+  }
+}
+
+
+p.one {
+  border-style: solid;
+  border-width: 5px;
+  border-color:red;
+}
+
+
+@media screen and (max-width: 39.9375em) {
+  #hmm{
+
+    margin-top: 30px;
+
+  }
+}
+
+
+
+
+@media screen and (min-width: 40em) {
+  p.one{
+
+    float: left;
+    width: 45%;
+    /*margin: 0 1%;*/
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 40em) {
+  .soki50{
+
+    width:200px;
+    height:200px;
+
+    display: block;
+ margin-left: auto;
+ margin-right: auto;
+
+  }
+}
+
+
+@media screen and (max-width: 39.9375em) {
+  .soki50{
+
+    display: none;
+
+  }
+}
+
+
+
+@media screen and (max-width: 39.9375em) {
+#text{
+
+        resize: horizontal;
+       width: 50%;
+       -webkit-transition: width 0.8s ease-in-out;
+       transition: width 0.8s ease-in-out;
+    }
+
+
+    #text:active {
+
+     -webkit-transition: width 0.8s ease-in-out;
+  transition: width 0.8s ease-in-out;
+
+    }
+
+
+    #text:focus {
+
+      width: 100%;
+
+}
+
+#soki53{
+
+text-align:center;
+
+}
+
+
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 40em) {
+
+  #text{
+
+          resize: horizontal;
+         width: 30%;
+         -webkit-transition: width 0.8s ease-in-out;
+         transition: width 0.8s ease-in-out;
+      }
+
+
+      #text:active {
+
+       -webkit-transition: width 0.8s ease-in-out;
+    transition: width 0.8s ease-in-out;
+
+      }
+
+
+      #text:focus {
+
+        width: 95%;
+
+  }
+
+
+  .floated {
+   float:left;
+   margin-right:5px;
+}
+}
