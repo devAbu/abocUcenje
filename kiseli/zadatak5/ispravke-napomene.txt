@@ -4,3 +4,6 @@
 - kad radis responsive...nema potrebe da radis sa 2 media-query...dovoljan je jedan koji ce rec kakav ce elemenat bit kad je ekran npr extra small, small i medium (ono max-width: medium ekran)...i onda stavis obicni css kod koji ce rec kakav ce elemenat bit u ostalim ekranima...samo eto nema potrebe za dva media-query jer je komplikovanije bezveze
 - za input field bolje ide focus nego active...znam da si i u proslom zadataku koristio active ali eto sad da kazem da je focus za input field bolji od active...a active je dobar za linkove
 - button na manjem ekranu nek bude na sredini
+
+
+--- ALT NA SLICI TI JE NAJJACI HAHHA 
