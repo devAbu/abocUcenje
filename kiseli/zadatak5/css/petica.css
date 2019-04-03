@@ -5,34 +5,36 @@ li {
 }
 
 
-@media screen and (max-width: 39.9375em) {
+/*@media screen and (max-width: 39.9375em) {*/
   .soki2{
 
-    color:#DAA520;
-    font-style: normal;
-     cursor: grab;
+    color:yellow;
+     font-style: normal;
+      cursor: grab;
         margin-left: 5px;
 
   }
-}
+/*}*/
 
 
 @media screen and (min-width: 40em) {
   .soki2{
 
     color:blue;
-    font-style: normal;
-     cursor: grab;
-        margin-left: 5px;
+     font-style: normal;
+       cursor: grab;
+         margin-left: 5px;
 
   }
 }
 
 
 p.one {
+
   border-style: solid;
-  border-width: 5px;
-  border-color:red;
+   border-width: 5px;
+    border-color:red;
+
 }
 
 
@@ -45,16 +47,15 @@ p.one {
 }
 
 
-
-
 @media screen and (min-width: 40em) {
   p.one{
 
     float: left;
-    width: 45%;
-    /*margin: 0 1%;*/
-    margin-left: auto;
-    margin-right: auto;
+     width: 45%;
+      /*margin: 0 1%;*/
+        margin-left: auto;
+          margin-right: auto;
+
   }
 }
 
@@ -62,11 +63,11 @@ p.one {
   .soki50{
 
     width:200px;
-    height:200px;
+     height:200px;
 
-    display: block;
- margin-left: auto;
- margin-right: auto;
+      display: block;
+        margin-left: auto;
+          margin-right: auto;
 
   }
 }
@@ -82,17 +83,18 @@ p.one {
 
 
 
-@media screen and (max-width: 39.9375em) {
+/*@media screen and (max-width: 39.9375em) {*/
 #text{
 
         resize: horizontal;
-       width: 50%;
-       -webkit-transition: width 0.8s ease-in-out;
-       transition: width 0.8s ease-in-out;
+          width: 50%;
+           -webkit-transition: width 0.8s ease-in-out;
+             transition: width 0.8s ease-in-out;
+
     }
 
 
-    #text:active {
+    #text:focus {
 
      -webkit-transition: width 0.8s ease-in-out;
   transition: width 0.8s ease-in-out;
@@ -106,49 +108,62 @@ p.one {
 
 }
 
+
+.floated{
+
+/*text-align:center;*/
+  display: block;
+
+}
+
+
 #soki53{
 
-text-align:center;
+  margin-left:auto;
+  margin-right: auto;
 
 }
 
-
-}
-
-
-
-
-
+/*}*/
 
 
 @media screen and (min-width: 40em) {
-
   #text{
 
-          resize: horizontal;
-         width: 30%;
-         -webkit-transition: width 0.8s ease-in-out;
-         transition: width 0.8s ease-in-out;
-      }
-
-
-      #text:active {
-
-       -webkit-transition: width 0.8s ease-in-out;
-    transition: width 0.8s ease-in-out;
+        resize: horizontal;
+          width: 30%;
+            -webkit-transition: width 0.8s ease-in-out;
+               transition: width 0.8s ease-in-out;
 
       }
 
 
       #text:focus {
 
-        width: 95%;
+       -webkit-transition: width 0.8s ease-in-out;
+         transition: width 0.8s ease-in-out;
+
+      }
+
+
+      #text:focus {
+
+        width: 90%;
 
   }
 
 
   .floated {
+
    float:left;
-   margin-right:5px;
+    margin-right:5px;
+
+}
+
+
+#soki53{
+
+margin-top:22px;
+
 }
 }
