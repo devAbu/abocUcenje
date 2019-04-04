@@ -1,9 +1,9 @@
 *** POSLANO POSLIJE ROKA - RAZLOG
 
-- malo si fulio kod navbar-a umjesto da stavis fontAwesome ikone <i class="fontAwesomeIkone"></i>HOME stavio si <i class="anes">HOME</i>...sto ne dobijas nikakvu fontAwesome ikonu...i HOME ide izvan <i></i>...i href ne ide u <i></i>
-- kad radis responsive...nema potrebe da radis sa 2 media-query...dovoljan je jedan koji ce rec kakav ce elemenat bit kad je ekran npr extra small, small i medium (ono max-width: medium ekran)...i onda stavis obicni css kod koji ce rec kakav ce elemenat bit u ostalim ekranima...samo eto nema potrebe za dva media-query jer je komplikovanije bezveze
-- za input field bolje ide focus nego active...znam da si i u proslom zadataku koristio active ali eto sad da kazem da je focus za input field bolji od active...a active je dobar za linkove
-- button na manjem ekranu nek bude na sredini
-
++ malo si fulio kod navbar-a umjesto da stavis fontAwesome ikone <i class="fontAwesomeIkone"></i>HOME stavio si <i class="anes">HOME</i>...sto ne dobijas nikakvu fontAwesome ikonu...i HOME ide izvan <i></i>...i href ne ide u <i></i> --> da ne ide u <i></i> radi olaksavanja (bez css-a)
++ kad radis responsive...nema potrebe da radis sa 2 media-query...dovoljan je jedan koji ce rec kakav ce elemenat bit kad je ekran npr extra small, small i medium (ono max-width: medium ekran)...i onda stavis obicni css kod koji ce rec kakav ce elemenat bit u ostalim ekranima...samo eto nema potrebe za dva media-query jer je komplikovanije bezveze
++ za input field bolje ide focus nego active...znam da si i u proslom zadataku koristio active ali eto sad da kazem da je focus za input field bolji od active...a active je dobar za linkove
++ button na manjem ekranu nek bude na sredini
+- media-query nek ide u px (velicina ekrana) a ne u em
 
 --- ALT NA SLICI TI JE NAJJACI HAHHA 
