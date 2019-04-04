@@ -1,0 +1,95 @@
+
+.topnav li {
+  float: left;
+  color: #FFD700;
+  text-align:center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 20px;
+  padding-left: 15px;
+  list-style-type: none;
+}
+
+@media screen and (max-width: 992px) {
+  .topnav li{
+    color: red;
+  }
+
+}
+.par {
+  padding-top: 10px;
+  border-style: solid;
+  border-color: #D2691E;
+}
+  .pare{
+ display: flex;
+ align-items: center;
+
+}
+#para1{
+
+  margin:0;
+
+}
+#para2{
+
+  margin: 0;
+
+}
+@media screen and (max-width: 992px) {
+  .pare{
+   display: inline-block;
+   white-space:pre-line;
+  }
+}
+
+.slika{
+ height: 200px;
+ weight: 100px;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+
+
+}
+@media screen and (max-width: 992px) {
+  .slika{
+   display: none;
+
+}
+  }
+
+.forma{
+  padding-top: 40px;
+}
+  .inputcic1{
+  width: 20%
+
+
+}
+@media screen and (min-width: 992px) {
+.inputcic1:focus{
+
+width: 96%;
+transition: width 8s ease-in;
+
+}
+}
+
+@media screen and (max-width: 992px) {
+.inputcic1{
+
+height: 50px;
+
+}
+.inputcic1:focus{
+  width: 97%;
+  height: inherit;
+}
+#inputcic:focus ~ #dug {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+}
