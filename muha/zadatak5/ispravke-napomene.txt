@@ -1,10 +1,10 @@
 *** POSLANO U ROKU
 
-- ikonica u tabu (u head) ne moze da se prikaze...imas error svakako u browseru, pokusaj to izbjegavat <3
-- tag <i> ti je nepotreban u navbaru i u <i> ne ide href atribut
-- bolje da se manje koristi <br>...umjesto toga koristi margin-bottom ili margin-top
-- samo da znas da mozes pitat npr. #par, #par2{ margin:0}...da ne pises za svaki posebno kad im je svakako isto...ali to je manje vise nego da znas da se moze :Da (uredu je kako si ti uradio ali eto da znas)
-- dobro si uradio ono da budu paragrafi jedan ispod drugog na malom ekranu...a eto da znas da si to mogo isto uradit po sirini...na medium i vece width: 48/50% (uredu je ne trebas nista mijenjat)
-- zasto ti se input field na malom ekranu ne povecava polako
-- sto si stavio da mu se height na malom ekranu povecava (uredu je nije problem) i onda kad se poveca (focus) vrati se u normalni oblik...jesil to namjerno uradio ili?
-- jel znas sta znaci ~ u css...il si samo negdje vidio pa stavio/probo vidio radi..eh super reko hahah :P 
+- ikonica u tabu (u head) ne moze da se prikaze...imas error svakako u browseru, pokusaj to izbjegavat <3 (mislio sam da nije ikonica vise bitna, svaki zadatak je spomenes hahah)
+- tag <i> ti je nepotreban u navbaru i u <i> ne ide href atribut(obrisano)
+- bolje da se manje koristi <br>...umjesto toga koristi margin-bottom ili margin-top (uredu, za ovaj zadatak je ok ovako ja mislim)
++ samo da znas da mozes pitat npr. #par, #par2{ margin:0}...da ne pises za svaki posebno kad im je svakako isto...ali to je manje vise nego da znas da se moze :Da (uredu je kako si ti uradio ali eto da znas)
++ dobro si uradio ono da budu paragrafi jedan ispod drugog na malom ekranu...a eto da znas da si to mogo isto uradit po sirini...na medium i vece width: 48/50% (uredu je ne trebas nista mijenjat)
++ zasto ti se input field na malom ekranu ne povecava polako 
+- sto si stavio da mu se height na malom ekranu povecava (uredu je nije problem) i onda kad se poveca (focus) vrati se u normalni oblik...jesil to namjerno uradio ili? (zato sto sam shvatio da se to trazi u zadatku, na manjim ekranima da ima vecu pocetnu sirinu)
+- jel znas sta znaci ~ u css...il si samo negdje vidio pa stavio/probo vidio radi..eh super reko hahah :P (znam znacenje)
