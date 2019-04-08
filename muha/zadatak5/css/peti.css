@@ -84,6 +84,7 @@ height: 50px;
 }
 .inputcic1:focus{
   width: 97%;
+  transition: width 8s ease-in;
   height: inherit;
 }
 #inputcic:focus ~ #dug {
