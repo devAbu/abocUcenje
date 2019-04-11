@@ -20,10 +20,10 @@
 
    <body onload="myFunction()">
 
-<h1>Ucimo</h1>
+   <h1>Ucimo</h1>
 
 
-<button type="button" onclick="myFunction1">Click Me!</button><br>
+    <button type="button" onclick="myFunction1">Click Me!</button><br>
 
 
 
@@ -39,58 +39,39 @@
 
 
 
-
-   <input type="text" name="prvi_br" id="unos1">
-    <input type="text" name="drugi_br" id="unos2">
-     <input type="submit" value="Klikni da provjeris" onclick="myFunction2()"><br>
+         <form id="klix5" action="index.html" method="post" name="frm1">
 
 
+           <input type="text" name="user" id="klix1">
+            <input type="text" name="pass" id="klix2">
+             <div style="display:inline-block;">
 
+              <input type="button" value="Login" onclick="f1()">
+                <span id="eresult" style="color:red;"></span>
 
+                 </div>
 
-
-   <input type="text" name="prvi_br">
-       <input type="submit" value="Vidi Sifru"><br>
-
-<!--
-
-<form name="contactForm" onsubmit="return validateForm()" action="confirmation.php" method="post">
-
-  <div class="row">
-          <label>Full Name</label>
-          <input type="text" name="name">
-          <div class="error" id="nameErr"></div>
-      </div>
+             </form>
 
 
 
-      <div class="row">
-        <label>Email Address</label>
-        <input type="text" name="email">
-        <div class="error" id="emailErr"></div>
-    </div>
+             <input type="password" value="geeksforgeeks" id="typepass">
+
+              <input type="button" onclick="Toggle()" value="Vidi Sifru">
 
 
+                 <script>
 
-    <div class="row">
-        <input type="submit" value="Submit">
-    </div>
-
-
-
-
-  </form>
-
-
-
-
-
--->
-
-
-
-
-
+                     function Toggle() {
+                         var temp = document.getElementById("typepass");
+                         if (temp.type === "password") {
+                             temp.type = "text";
+                         }
+                         else {
+                             temp.type = "password";
+                         }
+                     }
+             </script>
 
 
 
