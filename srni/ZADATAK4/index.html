@@ -1,0 +1,53 @@
+ <div class="fotgl" id="kontakt">
+    <div class="container">
+      <div class="row">
+        <div class="col-10 col-md-6 ">
+          <h3>Kontakt</h3>
+            <form name="kontaktforma" id="kontaktforma" method="post" >
+              <label for="firstname">Ime i Prezime</label>
+              <input type="text" id="firstname" name="firstname" placeholder="Vaše Ime i Prezime" required>
+            
+              <label for="email">Email</label> <br>
+              <input type="email" id="email" name="email" placeholder="Vaš Email" style="width:100%;" required>
+                <br>
+              <label for="subject">Poruka</label> <br>
+              <textarea id="subject" name="subject" placeholder="Vaša Poruka" style="height:161px;" required></textarea>
+              
+              <button id="submit" class="offset-md-5 btn btn-lg btn-outline-primary">Posalji</button>
+              </form>
+             </div>
+            <div class=" col-10 col-md-6">
+          <h3>Nasa Lokacija</h3>
+        <div class=" mapp"><div class="gmap_canvas mapwid"><iframe class="mapwid" id="gmap_canvas" src="https://maps.google.com/maps?q=al%20amel%20sarajevo&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div><style>.mapouter{text-align:right;height:360px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:360px;width:600px;}</style></div>
+      </div>
+     </div>
+    </div>
+  </div>
+  <script>
+  	$(function () {
+        $('#kontaktforma').on('submit', function (e) {
+
+          e.preventDefault();
+          var firstname = $('#firstname').val();
+          var email = $('#email').val();
+          var subject = $('#subject').val();
+
+          $.ajax({
+            type: 'post',
+            url: 'emailSend.php',
+            data: $('#kontaktforma').serialize(),
+            success: function (data) {
+              if (data.indexOf('sent')) {
+                alert('poslano je');  
+              } else{
+                alert('nije poslano')
+              }
+              
+            },
+            error: function(err){
+              alert('nije dobro')
+            }
+          });
+         });
+      });
+    </script>   
