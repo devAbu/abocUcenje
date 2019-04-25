@@ -1,22 +1,22 @@
 ***POSLANO U ROKU (haman je sve gotovo)
 
 --> samo da napomenem ponovo, ikona ide sa slikom koja je .ico...vjerovatno znas ali eto da napomenem za svaki slucaj haha
-- navbar ti ne smije imat <a>
-- zasto si navbar stavio u poseban div?
-- imas vise elemenata sa istim ID...ID ne smije biti isti...ako hoces zbog css-a da jednom napises style i svima dodijelis...stavis istu klasu
-- zasto imas prazne label-e....i usputu nisu dobro uradjeni
-- zasto si stavi u button-u klasu btn btn-block btn-primary?
-- zasto ti je u .registar1 input...border-radius: 1.7em / 0.4em??
-- promijenio si boju teksta kad user kuca...al nisi promijenio boju placeholder-a
-- piso si dva put isti kod...npr za btn, btn:hover, btn2 i btn2:hover...selekto si button-e po ID, bolje bi bilo da si radio po klasu (duplo manji kod) il selektovanje po elementu (u ovom slucaju button)
-- sto si u registar2 stavi top i bottom margin-u -90?
-- opet label-i nemaju nikakvu ulogu
-- zasto si radio ikonu u button-u na dva nacina...
++ navbar ti ne smije imat <a>
++ zasto si navbar stavio u poseban div?
++- imas vise elemenata sa istim ID...ID ne smije biti isti...ako hoces zbog css-a da jednom napises style i svima dodijelis...stavis istu klasu --> opet imas istih ID...ne trebas sad ispravljat ali eto da znas ubuducee
++ zasto imas prazne label-e....i usputu nisu dobro uradjeni
++- zasto si stavi u button-u klasu btn btn-block btn-primary?
++ zasto ti je u .registar1 input...border-radius: 1.7em / 0.4em??
++ promijenio si boju teksta kad user kuca...al nisi promijenio boju placeholder-a
++- piso si dva put isti kod...npr za btn, btn:hover, btn2 i btn2:hover...selekto si button-e po ID, bolje bi bilo da si radio po klasu (duplo manji kod) il selektovanje po elementu (u ovom slucaju button) --> opet ima isti kod ali nije bitno jer je to svakako tesko izbjec...ali eto da se zna da je fino po mogucnosti sto kraci kod
++- sto si u registar2 stavi top i bottom margin-u -90?
++- opet label-i nemaju nikakvu ulogu
++ zasto si radio ikonu u button-u na dva nacina...
                         <button><i class="klasa ikone"></i> Register</button>
                         <button class="klasa ikone">Login</button>
-- opet imas dupli kod...pokusaj ubuduce to izbjegavat...jer kod treba bit sto manji/kraci
-- zasto si piso input[type=text / email / password]?? uredu je to, super...ali u ovom slucaju si samo komplikovo sebi...mogo si jednostavno samo input selektovat...i on bi sve te selektovo...al u svakom slucaju odlican je ovo nacin...trebace dosta kasnije
-- gdje ti se input field povecava (#idemo)...da li bi mogo da se povecava polako (ko sto je na videu)...ovo je dobar nacin, super sto si radio...ali eto da se uradi da se polako povecava a ne odjednom
-- zasto u #par imas margin-top: -100px??
-- pokusaj #par na hover da povecas pomocu SCALE()...bit ce ti jasna razlika
-- zasto si stavio kad hover-am na textarea ne staje mis? 
++ opet imas dupli kod...pokusaj ubuduce to izbjegavat...jer kod treba bit sto manji/kraci
++ zasto si piso input[type=text / email / password]?? uredu je to, super...ali u ovom slucaju si samo komplikovo sebi...mogo si jednostavno samo input selektovat...i on bi sve te selektovo...al u svakom slucaju odlican je ovo nacin...trebace dosta kasnije
++- gdje ti se input field povecava (#idemo)...da li bi mogo da se povecava polako (ko sto je na videu)...ovo je dobar nacin, super sto si radio...ali eto da se uradi da se polako povecava a ne odjednom -->ipsravio sam ti ja pa pogledaj
++- zasto u #par imas margin-top: -100px??
++ pokusaj #par na hover da povecas pomocu SCALE()...bit ce ti jasna razlika
++ zasto si stavio kad hover-am na textarea ne staje mis? 

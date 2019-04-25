@@ -1,0 +1,7 @@
+***POSLANA POSLIJE ROKA
+
+- samo ubuduce izbjegavaj errore u console u devTool haha...ne trebas nista sad ali eto da znas inace nemoj stavljat nesto ako neces koristit
+- kao css, pokusaj uvijek js pisat u posebnom folder (npr. js/main.js)
+- vidi da uradis ono na klik prvog button-a
+- span "eresult" pokusaj da uradis style="color:red" preko js a ne preko inline css-a
+- Toggle funkcija je uredu...ali eto trebala bi bit u posebnom fajlu (u tvom slucaju sestica.js)...ne trebas je prebacivat, ali eto da znas <3 

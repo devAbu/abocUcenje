@@ -2,21 +2,27 @@
   width: 100%;
   text-align:left;
   cursor: pointer;
-  margin-left: 80px;
+  margin-left: 50px;
 
 }
-.navbar1 a {
+.navbar1 li {
 float: left;
 padding: 12px;
 color: #d84e08;
 text-decoration: none;
 font-size: 20px;
+list-style-type: none;
 }
-#ikonice{
+.navbar1 i{
   color: yellow;
 }
-#navbar a:hover{
-color:#b57a72;
+
+
+/*}*/
+#navbar:hover{
+opacity: 0.9;
+
+
 }
 
 .registar{
@@ -29,7 +35,7 @@ color:#b57a72;
 
 
   border: 2px solid #efc710;
-  border-radius: 1.7em / 0.4em;
+  border-radius: 17%;
   padding: 8px;
   color: red;
   margin-left: 3px;
@@ -38,12 +44,12 @@ color:#b57a72;
 
 }
 
-#btn {
+.dugmad {
   background-color: #0f9611;
   border: none;
   color: white;
   padding: 18px 32px;
-  border-radius: 1.7em / 0.4em;
+  border-radius:17%;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -51,26 +57,21 @@ color:#b57a72;
   margin: 4px 3px;
   cursor: pointer;
 }
-#btn:hover{
+.dugmad:hover{
   box-shadow: 0 7px 15px #6dd117;
 }
 #btn2 {
-  background-color: #0f9611;
-  border: none;
-  color: white;
-  padding: 18px 80px;
-  border-radius: 1.7em / 0.4em;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 3px;
-  cursor: pointer;
+
+  padding: 17px 80px;
   cursor: not-allowed;
 }
-#btn2:hover{
-  box-shadow: 0 7px 15px #6dd117;
+#dugme{
+  color: yellow;
 }
+#dugme2{
+  color: yellow;
+}
+
 
 .registar2{
   text-align: center;
@@ -83,7 +84,7 @@ color:#b57a72;
 
 
   border: 2px solid #efc710;
-  border-radius: 1.7em / 0.4em;
+  border-radius: 17%;
   padding: 8px;
   color: red;
   margin-left: 3px;
@@ -92,9 +93,13 @@ color:#b57a72;
 
 }
 
-input[type=text]:focus,input[type=email]:focus, input[type=password]:focus {
+input:focus {
   border: 2px solid #1e5b1d;
   outline: none;
+  -webkit-transition: width 2s, height 4s;
+}
+::placeholder{
+  color: red;
 }
 
 #inputnovi{
@@ -104,25 +109,29 @@ input[type=text]:focus,input[type=email]:focus, input[type=password]:focus {
 }
 #idemo {
   border: 2px solid #efc710;
-  border-radius: 1.7em / 0.4em;
+  border-radius: 17%;
   padding: 8px;
   padding-right: 350px;
   color: red;
   margin-left: 3px;
   margin-bottom: 15px;
+  width: 25%;
+  transition: width 8s ease-out;
 }
   #idemo:focus{
- resize: horizontal;
+
   width: 75%;
+  transition: width 8s ease-in;
+
 }
 
 #par{
-  margin-top: -100px;
+  margin-top:-100px;
   font-size: 30px;
   font-weight:bold;
 }
 #par:hover{
-  font-size: 500%;
+transform: scale3d(0.5);
 font-family: cursive;
 }
 #par:active{
@@ -141,7 +150,4 @@ text-align: center;
   border-radius: 15%;
 
 
-}
-#muhaa:hover{
-  cursor: none;
 }
