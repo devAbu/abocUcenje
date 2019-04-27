@@ -73,7 +73,7 @@ setTimeout(function(){
 
 function mySunce() {
 
-  document.getElementById("demo").innerHTML = "JS";
+  document.getElementById("demo").innerHTML = "Ucimo JS";
 
 }
 
