@@ -28,27 +28,32 @@ y=document.frm1.pass.value;
 
 if(x=="" && y ==""){
   document.getElementById("eresult").innerHTML = "Niste nista unijeli";
+  document.getElementById("eresult").style.color = 'red';
   return false;
 }
 
 else if(x==""){
   document.getElementById("eresult").innerHTML = "Ispuni x";
+    document.getElementById("eresult").style.color = 'red';
   return false;
   }
 
 else if (y==""){
 
   document.getElementById("eresult").innerHTML = "Ispuni y";
-  return false;
+  document.getElementById("eresult").style.color = 'red';
+    return false;
 
   }
 else if (y=="0"){
   document.getElementById("eresult").innerHTML = "Unesite tacne godine";
+  document.getElementById("eresult").style.color = 'red';
   return false;
 }
 else{
 
-  document.getElementById("eresult").innerHTML = "<span style='color: green;'>Hvala</span>";
+  document.getElementById("eresult").innerHTML = "<span>Hvala</span>";
+  document.getElementById("eresult").style.color = 'green';
   /*return true;*/
 
 
@@ -71,10 +76,10 @@ setTimeout(function(){
 }
 
 
-function mySunce() {
+function mySunce() {/*
 
   document.getElementById("demo").innerHTML = "Ucimo JS";
-
+*/
 }
 
 
@@ -91,4 +96,17 @@ function Toggle() {
         temp.type = "password";
 
     }
+}
+
+
+
+
+/*Koristena je funkcija appendChild*/
+
+function myFunctionn() {
+
+  var soki = document.createElement("P");
+   soki.innerHTML = '<p  style="font-size:40px; display:inline;"> JS </p>' ;
+    document.getElementById("Juhu").appendChild(soki);
+
 }
