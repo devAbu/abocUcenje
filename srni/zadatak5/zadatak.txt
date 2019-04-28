@@ -1,0 +1,5 @@
+*** ROK DO UTORKA NAVECER
+
+- uradit stranicu koja ima button
+- prvi button...kad user klikne na njega izlista mu sve podatke iz baze/tabele...i pored svakog item-a koji se izlista ima button DELETE
+- kad user klikne na button delete odredjenog item-a, taj se item obrise iz tabele i stranica se refresuje
