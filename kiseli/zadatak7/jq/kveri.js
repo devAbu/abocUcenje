@@ -3,21 +3,16 @@ $(document).ready( function() {
 alert('Stranica se uspjesno ucitala');
 console.log('Stranica ucitana');
 
-}  );
 
 
-
-$(document).ready( function() {
 $("#btn1").click(function(){
-  $("#anes1").append("JS");
+
+    $("#anes1").append("JS");
+
 });
-}  );
 
 
 
-
-
-$(document).ready(function(){
         $("#submit1").on("click", function(){
         var a = parseInt($('#number1').val());
         var b = parseInt($('#number2').val());
@@ -27,13 +22,11 @@ $(document).ready(function(){
            $("#rezultat").val(sum);
             /*alert(sum);*/
             /*$('#rezultat').text(sum);*/
-        })
-      /*  $('rezultat').text(sum);*/
-    })
+
+        });
 
 
 
-    $(document).ready(function(){
     $("#aki77").on("click", function(){
 
     var x = $('#klix1').val();
@@ -53,6 +46,7 @@ $(document).ready(function(){
 
     $("#eresult").text("Unesite x");
     $("#eresult").css({"color": "red"});
+
     }
 
     else if (y==""){
@@ -78,25 +72,21 @@ $(document).ready(function(){
       setTimeout(function() {
 
       $('#eresult').hide();
+      $("#klix5")[0].reset();
 
 
     }, 3000);
 
-
+/*
     setTimeout(function() {
 
     $("#klix5")[0].reset();
 
-
-    }, 3000);
-
-
+  }, 3000);
+*/
     }
 
     });
-    });
-
-
 
 
 
@@ -112,13 +102,16 @@ passwordField.attr('type', 'text');
 $(this).text('Prikazi');
 
 }
-else
+
+ else
+
  {
 
     passwordField.attr('type', 'password');
     $(this).text('Sakrij');
 
-}
+ }
 
+});
 
 });
