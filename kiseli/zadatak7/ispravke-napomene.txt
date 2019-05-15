@@ -1,6 +1,6 @@
 *** JUHU 
 
-- ne treba pisat vise $(document).ready(...)...samo napises jedan taj ready i sve ostale funkcije u njemu...npr 
++ ne treba pisat vise $(document).ready(...)...samo napises jedan taj ready i sve ostale funkcije u njemu...npr 
 
     $(document).ready(function(){
         alert('ucitana stranica')  
@@ -9,5 +9,5 @@
             alert('juhu) itd...
         })
     })
-- kad si radio onaj setTimeout...nema potrebe da pises dva odvojena setTimeout-a...mogo si i eresult i klix5 sakrit u jednom setTimeout
-- jesil razumio $(this)???
++ kad si radio onaj setTimeout...nema potrebe da pises dva odvojena setTimeout-a...mogo si i eresult i klix5 sakrit u jednom setTimeout
++ jesil razumio $(this)???
