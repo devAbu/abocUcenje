@@ -1,0 +1,5 @@
+*** ROK DO PETKA NAVECER - ako imas obaveza i nmz stic uradit, javi
+
+- Napravit bazu (mysql baza) - u phpmyadminu
+- baza ne treba imat nikakve tabele
+- onda napravit php stanicu, koju ces spojit sa tom napravljenom bazom
